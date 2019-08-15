@@ -18,7 +18,7 @@ before_install:
 
 before_script:
   - script/travis_consul.sh 1.5.3
-  - script/travis_etcd.sh 3.3.10
+  - script/travis_etcd.sh 3.3.13
   - script/travis_zk.sh 3.5.5
 
 script:
