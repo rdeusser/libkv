@@ -8,5 +8,5 @@ fi
 
 wget "http://apache.cs.utah.edu/zookeeper/zookeeper-${ZK_VERSION}/apache-zookeeper-${ZK_VERSION}.tar.gz"
 tar -xvf "zookeeper-${ZK_VERSION}.tar.gz"
-mv zookeeper-$ZK_VERSION zk
+mv apache-zookeeper-$ZK_VERSION zk
 mv ./zk/conf/zoo_sample.cfg ./zk/conf/zoo.cfg
